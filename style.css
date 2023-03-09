@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171__480.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#container{
+    width: 618px;;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 14rem;
+    font-size: 40px;
+    opacity: 0.9;
+    color: white;
+    font-weight: 800;
+    background-image: url("https://www.shutterstock.com/image-vector/background-multicolor-gradient-colourful-color-260nw-1711154779.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 40px;
+}
+#date{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#hours{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0px 20px;
+    background-color: rgb(250, 50, 32);
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px #888888;;
+}
+#minutes{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0px 20px;
+    border-radius: 10px;
+    background-color: rgb(250, 50, 32);
+    box-shadow: 10px 10px 8px #888888;;
+}
+#seconds{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0px 20px;
+    background-color: rgb(250, 50, 32);
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px #888888;
+}
+#format{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0px 20px;
+    background-color: rgb(250, 50, 32);
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px #888888;
+}
